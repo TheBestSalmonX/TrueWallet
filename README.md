@@ -3,7 +3,7 @@
 ## Usage
 ```python
 if __name__ == "__main__":
-    client = TrueWallet(firstName="", phoneNumber="0909831697")
+    client = TrueWallet(firstName="", phoneNumber="PHONENUMBER")
     url_truewallet_gift = "https://gift.truemoney.com/campaign/?v=zeOCGJgWglji9hkodp"
 
     checkInfo = client.CheckPhoneNumberInCampaign(url_truewallet_gift)
